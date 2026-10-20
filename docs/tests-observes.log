@@ -1,0 +1,224 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+Oct 04, 2026 9:00:02 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+Oct 04, 2026 9:00:02 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://127.0.0.1:43253
+
+Oct 04, 2026 9:00:02 PM jade.core.AgentContainerImpl init
+WARNING: Automatic main-detection mechanism initialization failed (Error setting up multicast socket - Caused by:  No such device (setsockopt failed)). Mechanism disabled!
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+Oct 04, 2026 9:00:02 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container Main-Container@127.0.0.1 is ready.
+--------------------------------------------
+Oct 04, 2026 9:00:02 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+Oct 04, 2026 9:00:02 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://127.0.0.1:43253
+
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+Oct 04, 2026 9:00:02 PM jade.core.PlatformManagerImpl localAddNode
+INFO: Adding node <SallesContainer> to the platform
+Oct 04, 2026 9:00:02 PM jade.core.PlatformManagerImpl$1 nodeAdded
+INFO: --- Node <SallesContainer> ALIVE ---
+Oct 04, 2026 9:00:02 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container SallesContainer@127.0.0.1 is ready.
+--------------------------------------------
+Oct 04, 2026 9:00:02 PM jade.core.Runtime beginContainer
+INFO: ----------------------------------
+    This is JADE 4.3.3 - revision 6726 of 2014/12/09 09:33:02
+    downloaded in Open Source, under LGPL restrictions,
+    at http://jade.tilab.com/
+----------------------------------------
+Oct 04, 2026 9:00:02 PM jade.imtp.leap.LEAPIMTPManager initialize
+INFO: Listening for intra-platform commands on address:
+- jicp://127.0.0.1:43253
+
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.management.AgentManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.messaging.Messaging initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.resource.ResourceManagement initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.mobility.AgentMobility initialized
+Oct 04, 2026 9:00:02 PM jade.core.BaseService init
+INFO: Service jade.core.event.Notification initialized
+Oct 04, 2026 9:00:02 PM jade.core.PlatformManagerImpl localAddNode
+INFO: Adding node <CoordinateurContainer> to the platform
+Oct 04, 2026 9:00:02 PM jade.core.PlatformManagerImpl$1 nodeAdded
+INFO: --- Node <CoordinateurContainer> ALIVE ---
+Oct 04, 2026 9:00:02 PM jade.core.AgentContainerImpl joinPlatform
+INFO: --------------------------------------
+Agent container CoordinateurContainer@127.0.0.1 is ready.
+--------------------------------------------
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [34a1102c-f054-48ec-a576-46125978154a]
+salleC -> REFUSE [34a1102c-f054-48ec-a576-46125978154a]
+REFUSE/FAILURE : salleC
+salleB -> PROPOSE [34a1102c-f054-48ec-a576-46125978154a]
+salleA -> PROPOSE [34a1102c-f054-48ec-a576-46125978154a]
+PROPOSE : Salle B, 35 places.
+PROPOSE : Salle A, 20 places.
+Collecte terminée : 3/3 réponses.
+coordinateur -> REJECT-PROPOSAL [34a1102c-f054-48ec-a576-46125978154a]
+coordinateur -> ACCEPT-PROPOSAL [34a1102c-f054-48ec-a576-46125978154a]
+ACCEPT_PROPOSAL : Salle A ; attente de confirmation.
+salleA -> INFORM [34a1102c-f054-48ec-a576-46125978154a]
+coordinateur -> INFORM [c58a267c-5cc0-464b-b7e5-41e317bc58bb]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [74b17eaa-e769-4b08-8a7b-b3a1ac0018d5]
+salleA -> REFUSE [74b17eaa-e769-4b08-8a7b-b3a1ac0018d5]
+salleC -> REFUSE [74b17eaa-e769-4b08-8a7b-b3a1ac0018d5]
+salleB -> REFUSE [74b17eaa-e769-4b08-8a7b-b3a1ac0018d5]
+REFUSE/FAILURE : salleA
+REFUSE/FAILURE : salleC
+REFUSE/FAILURE : salleB
+Collecte terminée : 3/3 réponses.
+coordinateur -> FAILURE [66987efa-61a0-4be9-8f48-a36e60e61a24]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [4a786624-ef33-4a71-99db-39da8a545498]
+salleC -> REFUSE [4a786624-ef33-4a71-99db-39da8a545498]
+salleA -> REFUSE [4a786624-ef33-4a71-99db-39da8a545498]
+salleB -> PROPOSE [4a786624-ef33-4a71-99db-39da8a545498]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [62c333d9-22f0-495d-8863-15fb944ef922]
+salleB -> PROPOSE [62c333d9-22f0-495d-8863-15fb944ef922]
+salleC -> REFUSE [62c333d9-22f0-495d-8863-15fb944ef922]
+salleA -> REFUSE [62c333d9-22f0-495d-8863-15fb944ef922]
+REFUSE/FAILURE : salleA
+REFUSE/FAILURE : salleC
+PROPOSE : Salle B, 35 places.
+Collecte terminée : 3/3 réponses.
+coordinateur -> ACCEPT-PROPOSAL [4a786624-ef33-4a71-99db-39da8a545498]
+ACCEPT_PROPOSAL : Salle B ; attente de confirmation.
+REFUSE/FAILURE : salleC
+PROPOSE : Salle B, 35 places.
+REFUSE/FAILURE : salleA
+Collecte terminée : 3/3 réponses.
+salleB -> INFORM [4a786624-ef33-4a71-99db-39da8a545498]
+coordinateur -> ACCEPT-PROPOSAL [62c333d9-22f0-495d-8863-15fb944ef922]
+ACCEPT_PROPOSAL : Salle B ; attente de confirmation.
+coordinateur -> INFORM [db26e431-0a59-4199-b6a7-a9f14b42f3d3]
+salleB -> FAILURE [62c333d9-22f0-495d-8863-15fb944ef922]
+coordinateur -> FAILURE [ae9080f7-c657-4bb0-9909-d84334b062fb]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+salleA -> REFUSE [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+salleC -> REFUSE [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+salleB -> PROPOSE [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+REFUSE/FAILURE : salleA
+REFUSE/FAILURE : salleC
+PROPOSE : Salle B, 35 places.
+Collecte terminée : 3/3 réponses.
+coordinateur -> ACCEPT-PROPOSAL [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+ACCEPT_PROPOSAL : Salle B ; attente de confirmation.
+salleB -> INFORM [d4565e9a-587f-4330-89d2-7fbd4d1fc7e4]
+coordinateur -> INFORM [a5c3897f-953d-4aa5-b847-af83d20ee1da]
+coordinateur -> INFORM [a5c3897f-953d-4aa5-b847-af83d20ee1da]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [39a2007a-2cce-4a8b-9535-cddf82f55f06]
+salleA -> REFUSE [39a2007a-2cce-4a8b-9535-cddf82f55f06]
+salleC -> REFUSE [39a2007a-2cce-4a8b-9535-cddf82f55f06]
+salleB -> REFUSE [39a2007a-2cce-4a8b-9535-cddf82f55f06]
+REFUSE/FAILURE : salleA
+REFUSE/FAILURE : salleC
+REFUSE/FAILURE : salleB
+Collecte terminée : 3/3 réponses.
+coordinateur -> FAILURE [fdc5b4d7-9b81-4531-a265-dbf08852f450]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [32c8eb01-cec9-4212-81e7-3551c6dd53bb]
+salleC -> REFUSE [32c8eb01-cec9-4212-81e7-3551c6dd53bb]
+salleA -> REFUSE [32c8eb01-cec9-4212-81e7-3551c6dd53bb]
+REFUSE/FAILURE : salleC
+REFUSE/FAILURE : salleA
+Collecte terminée : 2/3 réponses.
+coordinateur -> FAILURE [1a4fcca1-6e30-44ac-84d5-082956bce99d]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [7e69abd2-799e-4b3b-a1e9-132f8bf2bcc1]
+salleA -> REFUSE [7e69abd2-799e-4b3b-a1e9-132f8bf2bcc1]
+salleC -> REFUSE [7e69abd2-799e-4b3b-a1e9-132f8bf2bcc1]
+salleIncertaine -> PROPOSE [7e69abd2-799e-4b3b-a1e9-132f8bf2bcc1]
+REFUSE/FAILURE : salleA
+REFUSE/FAILURE : salleC
+PROPOSE : Salle incertaine, 35 places.
+Collecte terminée : 3/3 réponses.
+coordinateur -> ACCEPT-PROPOSAL [7e69abd2-799e-4b3b-a1e9-132f8bf2bcc1]
+ACCEPT_PROPOSAL : Salle incertaine ; attente de confirmation.
+coordinateur -> FAILURE [d0b33f4f-0942-481b-8b2d-e983347fd9e3]
+CFP envoyé à 3 salle(s).
+coordinateur -> CFP [b46f2075-8687-4252-9603-de34c1fdbaec]
+salleC -> REFUSE [b46f2075-8687-4252-9603-de34c1fdbaec]
+salleA -> REFUSE [b46f2075-8687-4252-9603-de34c1fdbaec]
+salleIncertaine -> REFUSE [b46f2075-8687-4252-9603-de34c1fdbaec]
+REFUSE/FAILURE : salleC
+REFUSE/FAILURE : salleIncertaine
+REFUSE/FAILURE : salleA
+Collecte terminée : 3/3 réponses.
+coordinateur -> FAILURE [ae0617dc-c441-4e5d-adbc-992a4a8494fa]
+╷
+├─ JUnit Platform Suite ✔
+├─ JUnit Jupiter ✔
+│  ├─ IntegrationJadeTest ✔
+│  │  ├─ reussiteEtMeilleureOffre() ✔
+│  │  ├─ aucuneOffre() ✔
+│  │  ├─ deuxDemandesConcurrentes() ✔
+│  │  ├─ doublonRejoue() ✔
+│  │  ├─ salleSilencieuse() ✔
+│  │  └─ confirmationPerdueResteIncertaine() ✔
+│  └─ ReglesTest ✔
+│     ├─ contraintes() ✔
+│     ├─ doublonIdempotent() ✔
+│     ├─ classementDeterministe() ✔
+│     ├─ validation() ✔
+│     ├─ intervallesSemiOuverts() ✔
+│     ├─ allerRetourMessage() ✔
+│     ├─ joursDifferents() ✔
+│     └─ concurrence() ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 1782 ms
+[         5 containers found      ]
+[         0 containers skipped    ]
+[         5 containers started    ]
+[         0 containers aborted    ]
+[         5 containers successful ]
+[         0 containers failed     ]
+[        14 tests found           ]
+[         0 tests skipped         ]
+[        14 tests started         ]
+[         0 tests aborted         ]
+[        14 tests successful      ]
+[         0 tests failed          ]
+
